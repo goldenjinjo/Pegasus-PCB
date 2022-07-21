@@ -5,4 +5,5 @@
   (lib (name "RS-Components")(type "KiCad")(uri "${KIPRJMOD}/component_libraries/SamaSys/SamacSys_Parts.pretty")(options "")(descr ""))
   (lib (name "SMA-Connectors")(type "KiCad")(uri "${KIPRJMOD}/component_libraries/SMA-Connectors.pretty")(options "")(descr ""))
   (lib (name "logo")(type "KiCad")(uri "${KIPRJMOD}")(options "")(descr ""))
+  (lib (name "XTSD")(type "KiCad")(uri "${KIPRJMOD}/component_libraries/XTSD")(options "")(descr ""))
 )
