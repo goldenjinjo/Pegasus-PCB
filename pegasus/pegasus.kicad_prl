@@ -4,22 +4,7 @@
     "active_layer_preset": "All Layers",
     "auto_track_width": true,
     "hidden_nets": [
-      "GND",
-      "3.3V",
-      "+5V",
-      "/BATT+",
-      "Net-(IC2-Pad12)",
-      "Net-(IC2-Pad13)",
-      "Net-(IC2-Pad14)",
-      "Net-(IC2-Pad15)",
-      "Net-(IC2-Pad16)",
-      "Net-(IC2-Pad17)",
-      "Net-(D1-Pad1)",
-      "Net-(D1-Pad3)",
-      "Net-(D1-Pad4)",
-      "RGB1",
-      "RGB2",
-      "RGB3"
+      "/BATT+"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -27,7 +12,7 @@
       "pads": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 0.0
+      "zones": 0.5
     },
     "ratsnest_display_mode": 0,
     "selection_filter": {
