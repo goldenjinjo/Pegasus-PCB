@@ -2,20 +2,16 @@
   "board": {
     "active_layer": 0,
     "active_layer_preset": "All Layers",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_nets": [
-      "GND",
-      "3.3V",
-      "+5V",
-      "/BATT+",
-      "+3.3V"
+      "GND"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
       "tracks": 1.0,
-      "vias": 1.0,
+      "vias": 0.9800000190734863,
       "zones": 0.5
     },
     "ratsnest_display_mode": 0,
