@@ -1587,7 +1587,6 @@
   (no_connect (at 145.9484 190.5) (uuid 75fc562c-1bb7-4a20-b78b-c9ad7073c155))
   (no_connect (at 119.2784 182.88) (uuid 77c852ce-3786-4340-8e27-75e1e3115907))
   (no_connect (at 97.3836 109.22) (uuid 8a2a26e6-e396-4f1b-a32a-3291a6d9c8b3))
-  (no_connect (at 145.9484 177.165) (uuid 971d49d7-b577-484f-bcbb-792611650773))
   (no_connect (at 145.9484 188.595) (uuid 9b9687a9-2253-4487-964a-4d0a5ca7d87f))
   (no_connect (at 119.2784 180.975) (uuid a2083898-f9d7-4906-ac0f-8df11434a306))
   (no_connect (at 145.9484 175.26) (uuid b62c46d9-7d13-42e9-8f8f-526a6b4ddb76))
@@ -2448,6 +2447,24 @@
     (pin "1" (uuid 8fb2425f-e5f8-4ee6-8edc-64928173b4f1))
   )
 
+  (symbol (lib_id "power:GND") (at 145.9484 177.165 90) (unit 1)
+    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (uuid 5d78c148-9a14-4651-8745-1c2c59b6d1dc)
+    (property "Reference" "#PWR?" (id 0) (at 152.2984 177.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (id 1) (at 149.86 177.1649 90)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "" (id 2) (at 145.9484 177.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (id 3) (at 145.9484 177.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 00b89397-520f-4ec7-a84a-670f07b4518c))
+  )
+
   (symbol (lib_id "MPL3115A2_v0.2-eagle-import:CAP_CERAMIC0805-NOOUTLINE") (at 95.25 38.1 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5f7b9d88-eb12-47e8-8ae8-265c4903ec29)
@@ -3098,6 +3115,9 @@
     )
     (path "/c3d3a05d-36ad-47e6-a826-a0aeee791639"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/5d78c148-9a14-4651-8745-1c2c59b6d1dc"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/cd0dd716-3c84-4981-941e-545033f1c88f"
       (reference "C1") (unit 1) (value "1µF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
