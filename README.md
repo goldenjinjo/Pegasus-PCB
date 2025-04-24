@@ -1,13 +1,44 @@
-# hardware
-Schematic And PCB Design for Pegasus Flight Computer
+Schematic And PCB Design for Pegasus Flight Computer in Kicad. 
+Designed to track 3D position via GPS and transmit to ground station.
+Originally developed for the UNSW Rocketry Team.
 
-Pegasus is a non-pyro telemetry based computer designed initially for the Pheonix Rocket Nose Cone.
+
+**PARTS LIST:**
+
+- Microprocessor: Teensy 4
+- GPS: Quectel L70B-M39
+- Radio Transceiver: RFD900ux
+- Memory: XTSD 4GB NAND Flash
+- RGB LED
+
+---
+## 📸 Overview
+
+### 📐 PCB Layout
+
+![PCB Layout](images/pcb.png)
+
+**Dimensions**: 
+- 98.0 mm × 39 mm board length
+- 98.0mm x 57.74 mm maximum horizontal (due to antennas)
+  
+**Mounting Holes**: ⌀3.2 mm (4-cornered)
+
+---
+## 📊 Schematic
+
+![Schematic](images/schematic.svg)
+
+---
+
+### ⚙️ Render – Front Side
+
+![Front Render](images/render_front.png)
+
+---
+
+### 🔧 Render – Back Side
+
+![Back Render](images/render_back.png)
 
 
-**NON-COMPRHENSIVE PARTS LIST:**
-
-- Microprocessor: Teensy 4.1
-- Barometer/Altimeter: Adafruit MPL3115A2
-- Inertial Measurement Unit (IMU): Adafruit BNO055
-- Global Posiitioning System (GPS): Quectel L70B-M39
-- Radio Transceiver: RFD900
