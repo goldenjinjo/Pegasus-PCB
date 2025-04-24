@@ -411,8 +411,9 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at -3 7.5 0)
+			(at 0.1 4.7 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "548ec0bc-0837-4972-aae2-f2038d677e12")
 			(effects
 				(font
@@ -4362,7 +4363,7 @@
 				)
 			)
 		)
-		(property "Description" "Quectel L70B-M39 GPS Module"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4370,90 +4371,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Part Number" "L70B-M39"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "98046805-c72b-4230-8b10-22f5f3a53589")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/l70b-m39/quectel-wireless-solutions-co-ltd"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "150c02df-1524-454e-8ec6-eb10bfdcd02a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Height" ""
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3d89bedc-5e68-4495-9dc5-3439f7bceab9")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Name" "Quectel"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4a65480d-c97c-4049-814e-92b0cca9bc31")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "L70B-M39"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f55f767f-a08a-43bb-8807-6287cf8db2ce")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Part Number" "277-L70B-M39"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf2ce993-75be-45ea-82ba-065d96dff052")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Quectel/L70B-M39?qs=GedFDFLaBXEc%2FApFWhGl1g%3D%3D"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0328c64c-cdea-4dd2-b089-6193ef105394")
-			(effects
-				(font
-					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -6151,8 +6068,9 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at -1 -5 0)
+			(at 0.1 5.2 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "ba8d8306-9072-44be-925b-df660cdf0038")
 			(effects
 				(font
